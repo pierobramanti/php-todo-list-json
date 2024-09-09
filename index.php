@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-12">
                     <ul>
-                    
+                    <li v-for="(todo, index) in todoList" :key="index">{{ todo.name }}</li>
                     </ul>
                 </div>
             </div>
