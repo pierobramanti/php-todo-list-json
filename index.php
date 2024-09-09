@@ -10,7 +10,21 @@
 </head>
 <body>
 
-    <div id="app"></div>
+    <div id="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1> PHP Todolist</h1>
+                </div>
+                <div class="col-12">
+                    <ul>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="./js/script.js" type="text/javascript"></script>
 </body>
 </html>
